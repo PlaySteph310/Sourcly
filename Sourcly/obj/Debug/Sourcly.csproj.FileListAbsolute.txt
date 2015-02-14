@@ -1,2 +1,14 @@
 C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\Sourcly\bin\Debug\Sourcly.exe.config
 C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\bin\Debug\Sourcly.exe.config
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\bin\Debug\Sourcly.exe
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\bin\Debug\Sourcly.pdb
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly.csprojResolveAssemblyReference.cache
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\MainWindow.baml
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\MainWindow.g.cs
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\App.g.cs
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly_MarkupCompile.cache
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly.g.resources
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly.Properties.Resources.resources
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly.csproj.GenerateResource.Cache
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly.exe
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly.pdb
