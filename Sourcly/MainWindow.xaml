@@ -4,7 +4,7 @@
         xmlns:System="clr-namespace:System;assembly=mscorlib" x:Name="Sourcly" x:Class="Sourcly.MainWindow"
         Title="Sourcly" Height="350" Width="525">
     <Grid>
-        <TextBox x:Name="text" AcceptsReturn="True" HorizontalAlignment="Stretch" Margin="5,30,5,5" TextWrapping="Wrap" VerticalAlignment="Stretch" RenderTransformOrigin="0.5,0.5" VerticalScrollBarVisibility="Visible">
+        <TextBox x:Name="text" AcceptsReturn="True" HorizontalAlignment="Stretch" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" RenderTransformOrigin="0.5,0.5" VerticalScrollBarVisibility="Visible">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -14,11 +14,11 @@
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
-        <Menu HorizontalAlignment="Stretch" Height="25" VerticalAlignment="Top" Margin="0,0,1,0">
-            <MenuItem Margin="0,0,0,0" Height="20" Width="40" x:Name="datei" Visibility="Visible" Header="Datei" Click="datei_Click">
+        <Menu HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,0,1,0">
+            <MenuItem Margin="0,0,0,0" Width="40" x:Name="datei" Visibility="Visible" Header="Datei" Click="datei_Click">
                 <MenuItem Header="Neue Datei" Click="MenuItem_Click2">
                     <MenuItem.Icon>
-                        <Image Margin="0" Source="images/newfile2.png"></Image>
+                        <Image Margin="0" Source="images/newfile.png"></Image>
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="Datei öffnen" Click="MenuItem_Click_1">
@@ -31,10 +31,40 @@
                         <Image Margin="0" Source="images/savefile.png"></Image>
                     </MenuItem.Icon>
                 </MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Drucken" Click="MenuItem_print">
+                    <MenuItem.Icon>
+                        <Image Margin="0" Source="images/print.png"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Im Webbrowser öffnen">
+                    <MenuItem.Icon>
+                        <Image Margin="0" Source="images/browser.png"></Image>
+                    </MenuItem.Icon>
+                    <MenuItem Header="Standardbrowser" Click="start_standartbrowser">
+                        <MenuItem.Icon>
+                            <Image Margin="0" Source="images/network.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator></Separator>
+                    <MenuItem Header="Internet Explorer" Click="MenuItem_internet_explorer">
+                        <MenuItem.Icon>
+                            <Image Margin="0" Source="images/internet_explorer2.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Beenden" Click="MenuItem_beenden">
+                    <MenuItem.Icon>
+                        <Image Margin="0" Source="images/exit.png"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
-            <TextBlock Text="|" IsEnabled="False"/>
+            <MenuItem Margin="0,0,0,0" Height="20" x:Name="menu_header_1" Header="|" IsEnabled="False">
+            </MenuItem>
             <MenuItem Margin="0,0,0,0" Height="20" Width="70" x:Name="Test" Visibility="Visible" Header="Bearbeiten">
-                <System:String>Test</System:String>
+                <MenuItem Header="Bald verfügbar" IsEnabled="False"></MenuItem>
             </MenuItem>
         </Menu>
     </Grid>

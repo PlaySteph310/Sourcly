@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -94,25 +95,31 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\newfile.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="images\newfile2.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="images\savefile.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="images\internet_explorer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\newfile.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="images\openfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\savefile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\network.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
