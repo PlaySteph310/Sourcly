@@ -181,5 +181,11 @@ namespace Sourcly
             /*var e1 = new KeyEventArgs(Keyboard.PrimaryDevice, Keyboard.PrimaryDevice.ActiveSource, 0, Key.LeftCtrl) { RoutedEvent = Keyboard. };
             InputManager.Current.ProcessInput(e1);*/
         }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            NewFile File = new NewFile();
+            File.Show();
+        }
     }
 }

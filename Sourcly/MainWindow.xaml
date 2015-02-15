@@ -70,7 +70,10 @@
                         <Image Source="images/reserved.png"></Image>
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Bald verfügbar" IsEnabled="False"></MenuItem>
+                    <MenuItem Header="Bald verfügbar" IsEnabled="False"></MenuItem>
+            </MenuItem>
+            <MenuItem Margin="0,0,0,0" Height="20" Width="70" x:Name="Test2" Visibility="Visible" Header="Test">
+                <MenuItem Header="New File" IsEnabled="True" Click="MenuItem_Click_2"></MenuItem>
             </MenuItem>
         </Menu>
     </Grid>
