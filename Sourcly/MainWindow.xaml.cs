@@ -176,5 +176,10 @@ namespace Sourcly
             string path = ParsePath(@"%localappdata%\\Sourcly\webfiles\");
             Process.Start("iexplore.exe", "file://" + path + "file_1.html");
         }
+        private void MenuItem_reserved(object sender, RoutedEventArgs e)
+        {
+            /*var e1 = new KeyEventArgs(Keyboard.PrimaryDevice, Keyboard.PrimaryDevice.ActiveSource, 0, Key.LeftCtrl) { RoutedEvent = Keyboard. };
+            InputManager.Current.ProcessInput(e1);*/
+        }
     }
 }

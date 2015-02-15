@@ -12,3 +12,5 @@ C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly.Properties.R
 C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly.csproj.GenerateResource.Cache
 C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly.exe
 C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\obj\Debug\Sourcly.pdb
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Stephan\Documents\GitHub\Sourcly\Sourcly\bin\Debug\ICSharpCode.AvalonEdit.xml

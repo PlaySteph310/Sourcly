@@ -13,6 +13,7 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </TextBox.RenderTransform>
+
         </TextBox>
         <Menu HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,0,1,0">
             <MenuItem Margin="0,0,0,0" Width="40" x:Name="datei" Visibility="Visible" Header="Datei" Click="datei_Click">
@@ -64,6 +65,11 @@
             <MenuItem Margin="0,0,0,0" Height="20" x:Name="menu_header_1" Header="|" IsEnabled="False">
             </MenuItem>
             <MenuItem Margin="0,0,0,0" Height="20" Width="70" x:Name="Test" Visibility="Visible" Header="Bearbeiten">
+                <MenuItem Header="Rückgängig" Click="MenuItem_reserved">
+                    <MenuItem.Icon>
+                        <Image Source="images/reserved.png"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
                 <MenuItem Header="Bald verfügbar" IsEnabled="False"></MenuItem>
             </MenuItem>
         </Menu>
